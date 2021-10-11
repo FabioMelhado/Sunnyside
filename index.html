@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnyside</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="images/logo.svg" alt="">
+         </div>
+
+        <img id="mobile-cta" class="mobile-menu" src="images/menu-burg.svg" alt="Open navigation">
+
+        <nav>
+
+            <img id="mobile-exit" class="mobile-menu-exit" src="images/delete.svg" alt="Close Navigation">
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <!-- <li class="contato"><a href="#"></a> Contato</li>  -->
+
+                <a href="#"><button>contact</button></a>
+            </ul>
+        </nav>
+
+        <div class="lado-direito">
+            <a class="cta" href="#"><button>contact</button></a>
+        </div>
+
+    </header>
+
+
+    <section>
+
+        <div class="slide">
+            <h2 class="titulo">We are Creatives</h2>
+            <img src="images/icon-arrow-down.svg" alt="">
+        </div>
+
+    </section>
+
+
+
+    <section class="transform">
+
+        <div class="transform-txt">
+            <h2>Transform your brand</h2>
+            <p>We are a full service creative agency specialising in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            
+            <div class="bg-button">
+                <button class="button-learn">learn more</button>
+            </div>
+            
+
+        </div>
+
+        <div class="transform-img"></div>
+        
+</section>
+
+
+<section class="audience">
+
+    <div class="audience-img"></div>
+    
+    <div class="audience-txt">
+
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researches, photographers, videographers and copywriters, we'll build and extend your brand in digital places.</p>
+
+        <div class="bg-button">
+            <button class="button-learn">learn more</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="fruta">
+
+    <div class="cereja">
+        <h3>Graphic Design</h3>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and capture potential clients attention.</p>
+    </div>
+
+    <div class="laranja">
+        <h3>Photography</h3>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </div>
+
+</section>
+
+<section class="testimonial">
+
+    <div class="test-title">
+        <h2>Client Testimonials</h2>
+    </div>
+    
+
+    <div class="test-one">
+        <img src="images/image-emily.jpg" alt="">
+        <blockquote>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</blockquote>
+        <span>Emily R.</span>
+        <p>Marketing Director</p>
+    </div>
+
+    <div class="test-two">
+        <img src="images/image-thomas.jpg" alt="">
+        <blockquote>Sunnyside's enthusiasm coupled with their keen interest in our brand's sucess made it a satisfying and enjoyable experience.</blockquote>
+        <span>Thomas S.</span>
+        <p>Chied Operating Officer</p>
+    </div>
+
+    <div class="test-three">
+        <img src="images/image-jennie.jpg" alt="">
+        <blockquote>Incredible end result! Our sales increased over 400% whenwe worked with Sunnysie. Highly recommended.</blockquote>
+        <span>Jennie F.</span>
+        <p>Business Owner</p>
+    </div>
+
+</section>
+
+
+<section class="gallery">
+
+        <img src="images/image-gallery-milkbottles.jpg" class="pic1" alt="">
+        <img src="images/image-gallery-orange.jpg" class="pic2" alt="">
+        <img src="images/image-gallery-cone.jpg" class="pic3" alt="">
+        <img src="images/image-gallery-sugarcubes.jpg" class="pic4" alt="">
+
+</section>
+
+
+<footer>
+    
+    <img src="images/sub-logo.png" class="sublogo" alt="">
+
+    <ul class="submenu">
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+    </ul>
+
+    <div class="social-media">
+        <ul>
+            <li><img src="images/icon-facebook.svg" alt=""></li>
+            <li><img src="images/icon-instagram.svg" alt=""></li>
+            <li><img src="images/icon-twitter.svg" alt=""></li>
+            <li><img src="images/icon-pinterest.svg" alt=""></li>
+        </ul>
+    </div>
+
+</footer>
+
+
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+    
+</body>
+</html>
